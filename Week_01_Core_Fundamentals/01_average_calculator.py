@@ -16,7 +16,7 @@ TODO:
 
 def main():
     pass
-
+print ("Welcome to the Average Calculator!"
 
 
 if __name__ == "__main__":
