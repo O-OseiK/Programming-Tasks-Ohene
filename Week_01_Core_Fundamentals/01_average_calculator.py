@@ -16,7 +16,16 @@ TODO:
 
 def main():
     pass
-print ("Welcome to the Average Calculator!"
+print ("Welcome to the Average Calculator!")
+def calculate_average(values):
+    if values == []:
+        return ("Empty, please enter numbers")
+
+    total = sum(values)
+    count = len(values)
+    average = total/count
+    return average
+
 
 
 if __name__ == "__main__":
