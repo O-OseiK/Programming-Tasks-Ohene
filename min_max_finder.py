@@ -13,9 +13,24 @@ TODO:
 """
 
 def main():
-    # TODO: Write demonstration/testing code
-    # If you want to delete all the code here and work just with a blank file go ahead, remember anything under the if __name__=="__main__":
-    # will only run if this module is being run directly. So used this subprocedure to carry out testing if it is going to be an imported file.
+
+    def min_max():
+    import random
+    numbers = random.randint(1, 50)
+    list = random.sample(range(1, 100), numbers)
+    min = list[0]
+    max = list[0]
+    for i in list:
+        if min > i:
+            min = i
+        elif max < i:
+            max = i
+    print("the lowest number is:", min)
+    print("the highest number is:", max)
+
+min_max()
+
+    
     pass
 
 
