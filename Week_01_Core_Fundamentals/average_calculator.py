@@ -14,8 +14,7 @@ TODO:
 - Add demonstration code under `if __name__ == "__main__":`
 """
 
-def main():
-    pass
+
 print ("Welcome to the Average Calculator!")
 def calculate_average(values):
     if values == []:
