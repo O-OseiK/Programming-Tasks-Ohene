@@ -15,15 +15,22 @@ TODO:
 """
 
 
-print ("Welcome to the Average Calculator!")
-def calculate_average(values):
-    if values == []:
-        return ("Empty, please enter numbers")
+def average_calc():
+    list=[]
+    stop = False
+    while stop == False:
+        number = input("enter stop if you are done:")
+        if number.lower() != "stop":
+            number = int(number)
+            list.append(number)
+        else:
+            stop = True
+    add = sum(list)
+    length = len(list)
+    total = add/length
+    print(total)
 
-    total = sum(values)
-    count = len(values)
-    average = total/count
-    return average
+
 
 
 
